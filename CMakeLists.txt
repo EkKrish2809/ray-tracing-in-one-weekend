@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(ray_tracing_in_one_weekend LANGUAGES CXX)
+
+add_executable(ray_tracing_in_one_weekend main.cc)
+target_compile_features(ray_tracing_in_one_weekend PRIVATE cxx_std_11)
